@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/shikimagicmove_widgetfornotion/', // 替换为你的仓库名称
   plugins: [
     vue(),
     vueDevTools(),

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && git add dist && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && git add dist && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix shiki_magic_move_widget_for_notion/dist origin gh-pages"
   },
   "dependencies": {
     "shiki": "^3.2.1",

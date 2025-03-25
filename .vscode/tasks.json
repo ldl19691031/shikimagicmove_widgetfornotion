@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "vue-shiki-magic-move-app",
+			"problemMatcher": [],
+			"label": "npm: dev - vue-shiki-magic-move-app",
+			"detail": "vite"
+		}
+	]
+}

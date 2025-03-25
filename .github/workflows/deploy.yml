@@ -28,7 +28,15 @@ jobs:
           cd shiki_magic_move_widget_for_notion
           npm run build
 
-        
+      - name: Verify build output
+        run: |
+          cd shiki_magic_move_widget_for_notion
+          if [ ! -d "./dist" ]; then
+            echo "Error: Build output directory 'dist' does not exist."
+            exit 1
+          fi
+          ls -la ./dist
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

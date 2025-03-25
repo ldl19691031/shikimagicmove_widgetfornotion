@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/shikimagicmove_widgetfornotion/', // 替换为仓库路径
+  base: './', // Ensure assets are referenced with relative paths
   plugins: [
     vue(),
     vueDevTools(),

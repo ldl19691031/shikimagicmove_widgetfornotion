@@ -24,6 +24,8 @@ jobs:
           npm install
 
       - name: Build project
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider # 添加环境变量
         run: |
           cd shiki_magic_move_widget_for_notion
           npm run build
